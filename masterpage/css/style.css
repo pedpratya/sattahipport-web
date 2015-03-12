@@ -1,0 +1,21 @@
+body, html, .container-fluid {
+  height: 100%;
+  width: 100%;
+}
+.navbar-area {
+  width:100%;
+  background-color:red;
+  height:20%;
+}
+.nav-left-area {
+  height:80%;
+  width: 20%;
+  float:left;
+  background-color: #00ff00;
+}
+.content-area {
+  overflow: auto;
+  height: 80%;
+  width: 80%;
+  background:orange;
+}
