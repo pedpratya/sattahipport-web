@@ -19,3 +19,14 @@ body, html, .container-fluid {
   width: 80%;
   background:orange;
 }
+.container-middle {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #FFFFFF;
+}
+.container-header {
+	background-color:#0c3467;
+	color:#FFFFFF;
+}
+

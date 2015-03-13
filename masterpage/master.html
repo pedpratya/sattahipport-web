@@ -1,0 +1,145 @@
+<!-- Stored in app/views/layouts/master.blade.php -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Sattahip Port</title>
+		
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+		<link href="css/admin.css" rel="stylesheet">
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+    </head>
+    <body>
+
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">
+			<img alt="Sattahip Port" src="images/logo.png" width="48px" >
+			<span class="text-logo">Sattahip Port</span>   
+          </a>
+          
+        </div>
+        <div class="btn-group pull-right">                          
+            <a class="btn dropdown-toggle" data-toggle="dropdown" href="#" style="margin-top: 10px;">
+              <span class="glyphicon glyphicon-user"></span><span class="hidden-phone">
+                  Username
+              </span>
+            </a>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#btn-sign-out">
+              Sign out
+            </button>
+        </div>
+      </div>
+    </nav>
+
+	<!-- Modal -->
+	<div class="modal fade" id="btn-sign-out" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	   <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">Confirm</h4>
+		  </div>
+		  <div class="modal-body">
+			<p>Are you sure?</p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+			<a href="{{ URL::route('admin-sign-out') }}"><button type="button" class="btn btn-primary">Yes</button></a>
+		  </div>
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div>
+	
+    <div class="container">
+      <div class="row">
+
+<!--left menu starts -->
+        <div class="col-lg-3 col-md-3 col-sm-3 main-menu-span">
+          <div class="well nav-collapse sidebar-nav">
+            <ul class="nav nav-sidebar nav-stacked main-menu">
+                <li class="nav-header hidden-tablet">Home</li>
+                <li id="home" class="active">
+                  <a href="#">
+                  <span class="glyphicon glyphicon-home"></span> Home
+                  </a>
+                </li>
+                <li class="nav-header hidden-tablet">
+                  Admin Console
+                </li>
+                <li id="loan-maker">
+                  <a class="ajax-link" href="#"><span class="hidden-tablet"> 
+                      <span class="glyphicon glyphicon-tasks"></span> Loan Maker
+                  </span></a>
+                </li>
+                <li id="loan-checker">
+                  <a class="ajax-link" href="#"><span class="hidden-tablet"> 
+                      <span class="glyphicon glyphicon-tasks"></span> Loan Checker
+                  </span></a>
+                </li>
+                <li id="loan-subscription">
+                  <a class="ajax-link" href="#"><span class="hidden-tablet"> 
+                      <span class="glyphicon glyphicon-tasks"></span> Loan Subscription
+                  </span></a>
+                </li>
+                <li id="loan-allocation">
+                  <a class="ajax-link" href="#"><span class="hidden-tablet"> 
+                      <span class="glyphicon glyphicon-tasks"></span> Loan Allocation
+                  </span></a>
+                </li>
+                <li id="loan-admin">
+                  <a class="ajax-link" href="#"><span class="hidden-tablet"> 
+                      <span class="glyphicon glyphicon-tasks"></span> Loan Administration
+                  </span></a>
+                </li>
+
+            </ul>
+
+          </div><!--/.well -->
+        </div><!--/span-->
+        <!-- left menu ends -->	  
+	  
+        <!-- Bread crumb -->
+        <div class="col-lg-9 col-md-9 col-sm-9" id="breadcrumb">
+			breadcrumbs breadcrumbs breadcrumbs
+		</div>
+		<!-- End Bread crumb -->
+		<div class="col-lg-9 col-md-9 col-sm-9 content" id="content">
+					content content content
+		</div>
+
+      </div><!-- End row -->
+    </div><!-- /.container -->
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/angular-resource.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+	
+    </body>
+</html>
