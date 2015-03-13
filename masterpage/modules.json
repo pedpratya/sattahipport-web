@@ -1,37 +1,72 @@
 [
     {
     	"id"  : "1",
-        "name": "A",
-        "child" : [
-        	{
-        		"id"  : "101",
-        		"name": "A-1",
-        		"child" : [
-        			{
-        				"id"  : "10101",
-        				"name": "A-1-1"
-    				},{
-    					"id"  : "10102",
-        				"name": "A-1-2"
-    				}
-        		]
-        	},{
-        		"id"  : "102",
-        		"name": "A-2"
-        	}
-        ]
+        "name": "ระบบ Admin",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-admin.png"
     },
     {
     	"id"  : "2",
-        "name": "B",
-        "child" : [
-	    	{
-	    		"id"  : "201",
-	    		"name": "B-1"
-	    	},{
-	    		"id"  : "202",
-	    		"name": "B-2"
-	    	}
-        ]
+        "name": "ระบบข้อมูลสารสนเทศ",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-information.png"
+    },
+    {
+        "id"  : "3",
+        "name": "ระบบบริหารการท่าและระบบอนุมัติ",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-manager.png"
+    },
+    {
+        "id"  : "4",
+        "name": "ระบบบริหารจัดการลูกค้้า CRM",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-crm.png"
+    },
+    {
+        "id"  : "5",
+        "name": "ระบบ e-Gate",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-egate.png"
+    },
+    {
+        "id"  : "6",
+        "name": "ระบบบริหารพื้นที่ประโยชน์ ทสพ.-ทร.",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-areaManame.png"
+    },
+    {
+        "id"  : "7",
+        "name": "ระบบจัดเก็บผลประโยชน์",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-benefits.png"
+    },
+    {
+        "id"  : "8",
+        "name": "ระบบบริหารหน้าท่าเรือควบคุมจราจรทางน้ำ",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-portManage.png"
+    },
+    {
+        "id"  : "9",
+        "name": "ระบบตรวจนับและตรวจสอบสินค้า",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-counting.png"
+    },
+    {
+        "id"  : "10",
+        "name": "ระบบพักสินค้าและลานพักสินค้า",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-warehouse.png"
+    },
+    {
+        "id"  : "11",
+        "name": "ระบบเคื่องมือบรรทุกและขนถ่าย",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-tranfer.png"
+    },
+    {
+        "id"  : "12",
+        "name": "ระบบบริการลูกเรือและผู้โดยสาร",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-service.png"
+    },
+    {
+        "id"  : "13",
+        "name": "ระบบบุคลากรและแรงงาน",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-personnel.png"
+    },
+    {
+        "id"  : "14",
+        "name": "ระบบรักษาความปลอดภัยตามมาตราฐาน",
+        "image" : "/sattahipport-web/masterpage/images/icon-mainmenu/icon-security.png"
     }
 ]

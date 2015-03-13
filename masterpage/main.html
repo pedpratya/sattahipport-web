@@ -70,68 +70,12 @@
 	</div>
   
 	<div class="container">
-	<!--a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">View navbar docs »</a-->
-		<div class="container-mainmenu">
-			<div class="box-menu">
-				<div class="box-menu-text-m">ระบบ Admin<br></div>
-				<img src="images/icon-mainmenu/icon-admin.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text-m">ระบบข้อมูล<br>สารสนเทศ</div>
-				<img src="images/icon-mainmenu/icon-information.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text">ระบบบริหารการท่า<br>และระบบอนุมัติ</div>
-				<img src="images/icon-mainmenu/icon-manager.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text">ระบบบริหารจัดการ<br>ลูกค้า CRM</div>
-				<img src="images/icon-mainmenu/icon-crm.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text-m">ระบบ e-Gate<br></div>
-				<img src="images/icon-mainmenu/icon-egate.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text">ระบบบริหารพื้นที่<br>ใช้ประโยชน์ ทสพ.-ทร.</div>
-				<img src="images/icon-mainmenu/icon-areaManame.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text-m">ระบบจัดเก็บ<br>ผลประโยชน์</div>
-				<img src="images/icon-mainmenu/icon-benefits.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text">ระบบบริหารหน้าท่าเรือ<br>ควบคุมจราจรทางน้ำ</div>
-				<img src="images/icon-mainmenu/icon-portManage.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text">ระบบตรวจนับ<br>และตรวจสอบสินค้า</div>
-				<img src="images/icon-mainmenu/icon-counting.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text">ระบบคลังสินค้า<br>และลานพักสินค้า</div>
-				<img src="images/icon-mainmenu/icon-warehouse.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text">ระบบเครื่องมือ<br>บรรทุกและขนถ่าย</div>
-				<img src="images/icon-mainmenu/icon-tranfer.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text">ระบบบริการลูกเรือ<br>และผู้โดยสาร</div>
-				<img src="images/icon-mainmenu/icon-service.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text-m">ระบบบุคลากร<br>และแรงงาน</div>
-				<img src="images/icon-mainmenu/icon-personnel.png" >
-			</div>
-			<div class="box-menu">
-				<div class="box-menu-text">ระบบรักษาความ<br>ปลอดภัยตามมาตรฐาน</div>
-				<img src="images/icon-mainmenu/icon-security.png" >
-			</div>
-			
-		</div>
+		<div class="row">
+	
+			<div ui-view="content"></div>
 
-    </div>    
+    	</div>   
+    </div> 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery-1.11.2.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -139,6 +83,7 @@
     <script src="js/angular.min.js"></script>
     <script src="js/angular-route.min.js"></script>
     <script src="js/angular-resource.min.js"></script>
+    <script src="js/angular-ui-router.min.js"></script>
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/services.js"></script>

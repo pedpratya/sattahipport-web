@@ -2,11 +2,7 @@
 angular.module('moduleServices', ['ngResource'])
 
 .factory('Module', function($resource, baseUrl){
-    return $resource(baseUrl + "modules.json" + ":id", { id: "@id" },
-        { 
-           	create: { method: "POST" }, 
-           	save  : { method: "PUT" } 
-        });
+    return $resource(baseUrl + "modules.json" + ":id", { id: "@id" });
     // return {
     //     query : function() {
     //         return $http.get(baseUrl + "modules.json");

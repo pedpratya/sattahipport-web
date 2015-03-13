@@ -1,5 +1,33 @@
-<ul>
-	<li ng-repeat="module in modulesLeft" class="thumbnail">
-		<a href="#/{{module.id}}">{{ module.name }}</a>
-	</li>
-</ul>
+<div class="row">
+<!--left menu starts -->
+        <div class="col-lg-3 col-md-3 col-sm-3 main-menu-span">
+          <div class="well nav-collapse sidebar-nav">
+            <ul class="nav nav-sidebar nav-stacked main-menu">
+                <li class="nav-header hidden-tablet">Home</li>
+                <li id="home" class="active">
+                  <a ui-sref="app">
+                  <span class="glyphicon glyphicon-home"></span> Home
+                  </a>
+                </li>
+                <li class="nav-header hidden-tablet">
+                  Admin Console
+                </li>
+                <li ng-repeat="m in modulesLeft">
+                  <a class="ajax-link" ui-sref=".sub({id: m.id, url: m.url})"><span class="hidden-tablet"> 
+                      <span class="glyphicon glyphicon-tasks"></span> 
+                  </span>{{ m.name }}</a>
+                </li>
+            </ul>
+
+          </div><!--/.well -->
+        </div><!--/span-->
+        <!-- left menu ends -->   
+
+<div class="col-lg-9 col-md-9 col-sm-9 content" id="content">
+  <div ui-view="detail">
+    
+  </div>
+</div>
+
+</div>
+     

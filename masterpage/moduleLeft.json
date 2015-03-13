@@ -1,28 +1,12 @@
 [
     {
-    	"id"  : "1-1",
+    	"id"  : "A-1-1",
         "name": "A11",
-        "child" : [
-        	{
-        		"id"  : "1-1-1",
-        		"name": "A111"
-        	},{
-        		"id"  : "1-1-2",
-        		"name": "A112"
-        	}
-        ]
+        "url" : "/sattahipport-web/system/index.html"
     },
     {
     	"id"  : "1-2",
         "name": "A12",
-        "child" : [
-	    	{
-	    		"id"  : "1-2-1",
-	    		"name": "A121"
-	    	},{
-	    		"id"  : "1-2-2",
-	    		"name": "A122"
-	    	}
-        ]
+        "url" : "/sattahipport-web/system/index2.html"
     }
 ]

@@ -1,5 +1,6 @@
-<ul>
-	<li ng-repeat="module in modules" class="thumbnail">
-		<a href="#/{{module.id}}">{{ module.name }}</a>
-	</li>
-</ul>
+<div ng-repeat="m in modules" class="box-menu">
+		<a ui-sref=".detail({id: m.id})">
+			<div class="box-menu-text-m">{{ m.name }}</div>
+			<img style="float: right; margin: 0px 0px 15px 15px;" src="{{ m.image }}" >
+		</a>
+</div>
