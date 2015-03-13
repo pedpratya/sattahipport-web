@@ -118,20 +118,26 @@ label.error {
 	background-repeat: repeat-x;
 }
 
-.box-menu-text-m{
-	display: block;
-	font-size: 16px;
-	height:48px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .box-menu-text{
-	display: block;
-	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight: normal;
+    width :136px;
 	height:48px;
-    margin-left: auto;
-    margin-right: auto;
+	word-wrap: break-word;
+	white-space: pre;
 }
+	
+.box-menu-text-m{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:16px;
+    font-weight: normal;
+    width :136px;
+	height:48px;
+	word-wrap: break-word;
+	white-space: pre;
+}
+
 .box-menu img{
 	display: block;
 	width :100px;
