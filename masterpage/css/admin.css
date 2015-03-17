@@ -61,6 +61,12 @@ a.navbar-brand{
 	font-size: 25px;
 }
 
+.nav-sidebar .nav-header{
+	background-color: #0D4474;
+	color: #FFFFFF;
+	padding: 10px 15px;
+}
+
 .nav-sidebar .active{
 	background-color: #428BCA;
 }

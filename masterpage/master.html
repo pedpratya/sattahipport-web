@@ -1,4 +1,4 @@
-<!-- Stored in app/views/layouts/master.blade.php -->
+﻿<!-- Stored in app/views/layouts/master.blade.php -->
 <!DOCTYPE html>
 <html>
     <head>
@@ -71,46 +71,27 @@
 	</div>
 	
     <div class="container">
-      <div class="row">
 
+      <div class="row">
 <!--left menu starts -->
         <div class="col-lg-3 col-md-3 col-sm-3 main-menu-span">
           <div class="well nav-collapse sidebar-nav">
-            <ul class="nav nav-sidebar nav-stacked main-menu">
-                <li class="nav-header hidden-tablet">Home</li>
-                <li id="home" class="active">
-                  <a href="#">
-                  <span class="glyphicon glyphicon-home"></span> Home
-                  </a>
-                </li>
-                <li class="nav-header hidden-tablet">
-                  Admin Console
-                </li>
-                <li id="loan-maker">
+            <ul class="nav nav-sidebar nav-stacked">
+				<h4 class="text-center">Admin System</h4>
+                <li class="nav-header hidden-tablet">องค์กร</li>
+                <!--li id="loan-maker" class="active">
                   <a class="ajax-link" href="#"><span class="hidden-tablet"> 
-                      <span class="glyphicon glyphicon-tasks"></span> Loan Maker
+                      <span class="glyphicon glyphicon-tasks"></span> เมนูย่อย 1
                   </span></a>
                 </li>
                 <li id="loan-checker">
                   <a class="ajax-link" href="#"><span class="hidden-tablet"> 
-                      <span class="glyphicon glyphicon-tasks"></span> Loan Checker
+                      <span class="glyphicon glyphicon-tasks"></span> เมนูย่อย 2
                   </span></a>
-                </li>
-                <li id="loan-subscription">
-                  <a class="ajax-link" href="#"><span class="hidden-tablet"> 
-                      <span class="glyphicon glyphicon-tasks"></span> Loan Subscription
-                  </span></a>
-                </li>
-                <li id="loan-allocation">
-                  <a class="ajax-link" href="#"><span class="hidden-tablet"> 
-                      <span class="glyphicon glyphicon-tasks"></span> Loan Allocation
-                  </span></a>
-                </li>
-                <li id="loan-admin">
-                  <a class="ajax-link" href="#"><span class="hidden-tablet"> 
-                      <span class="glyphicon glyphicon-tasks"></span> Loan Administration
-                  </span></a>
-                </li>
+                </li-->
+                <li class="nav-header hidden-tablet">ระบบงาน</li>
+                <li class="nav-header hidden-tablet">User Management</li>
+                <li class="nav-header hidden-tablet">รายงาน</li>
 
             </ul>
 
@@ -119,7 +100,11 @@
         <!-- left menu ends -->	  
 	  
 		<div class="col-lg-9 col-md-9 col-sm-9 content" id="content">
-			
+		<ol class="breadcrumb">
+			<li><a href="/index.html">Admin System</a></li>
+			<li class="active">Home</li>
+			<!--li class="active">Simple Sidebar</li-->
+		</ol>		
 			<div role="form" class="form-horizontal"><!-- form-->
 
                 <div class="form-group">
