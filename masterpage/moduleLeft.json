@@ -1,12 +1,22 @@
 [
     {
-    	"id"  : "A-1-1",
-        "name": "A11",
+    	"id"  : "1-1",
+        "name": "องค์กร",
         "url" : "/sattahipport-web/system/index.html"
     },
     {
     	"id"  : "1-2",
-        "name": "A12",
+        "name": "ระบบงาน",
+        "url" : "/sattahipport-web/system/index2.html"
+    },
+    {
+    	"id"  : "1-3",
+        "name": "User Management",
+        "url" : "/sattahipport-web/system/index2.html"
+    },
+    {
+    	"id"  : "1-4",
+        "name": "รายงาน",
         "url" : "/sattahipport-web/system/index2.html"
     }
 ]
